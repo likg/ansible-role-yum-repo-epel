@@ -1,3 +1,6 @@
+[![Ansible Galaxy](https://img.shields.io/badge/role-likg.yum--repo--epel-blue.svg?style=flat)](https://galaxy.ansible.com/likg/yum-repo-epel/)
+[![Build Status](https://travis-ci.org/likg/ansible-role-yum-repo-epel.svg?branch=master)](https://travis-ci.org/likg/ansible-role-yum-repo-epel)
+
 # Ansible Role: EPEL YUM repo
 
 Install EPEL YUM repo on RHEL/CentOS servers.
