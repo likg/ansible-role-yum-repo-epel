@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: lik
+  description: Install EPEL YUM repository
+  min_ansible_version: 2.4
+  license: MIT
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  galaxy_tags:
+    - repos
+    - epel
+    - yum

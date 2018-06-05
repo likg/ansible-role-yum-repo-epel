@@ -1,0 +1,21 @@
+---
+# yum-repo-epel/tasks/main.yml
+
+- name: install epel repo
+  yum:
+    name: epel-release
+    state: present
+  tags:
+    - packages
+    - yum_repo_epel
+
+- name: enable epel repo
+  ini_file:
+    no_extra_spaces: yes
+    dest: /etc/yum.repos.d/epel.repo
+    section: epel
+    option: enabled
+    value: 1
+  tags:
+    - packages
+    - yum_repo_epel
